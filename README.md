@@ -1,12 +1,12 @@
 # 📊 Breast Cancer Wisconsin (Diagnostic) – EDA
 
 ## 🎯 Objetivo del proyecto
-El objetivo de este trabajo es realizar un análisis exploratorio de datos (EDA) completo sobre un dataset real, siguiendo un flujo ordenado de carga, exploración, limpieza y visualización. El propósito no es aplicar técnicas avanzadas de modelado, sino comprender la estructura y calidad de los datos, identificar posibles problemas y dejar el dataset preparado para futuros análisis.
+El objetivo de este trabajo es realizar un análisis exploratorio de datos (EDA) completo sobre un dataset real, siguiendo un flujo ordenado de carga, exploración, limpieza y visualización.
 
 ---
 
 ## 1. Descripción del dataset
-Este EDA se ha realizado sobre el **Breast Cancer Wisconsin (Diagnostic) Dataset**, ampliamente utilizado para el análisis de características morfológicas de tumores benignos y malignos a partir de biopsias FNA (Fine Needle Aspiration).  
+Este EDA se ha realizado sobre el **Breast Cancer Wisconsin (Diagnostic) Dataset**, bastante utilizado para el análisis de características morfológicas de tumores benignos y malignos a partir de biopsias FNA (Fine Needle Aspiration).  
 
 El dataset original proviene del repositorio de **UCI Machine Learning Repository**.
 
@@ -38,27 +38,14 @@ El dataset original proviene del repositorio de **UCI Machine Learning Repositor
 
 ---
 
-## 3. Estructura del repositorio
-
-```
-├── data/
-│   └── dataset.csv
-├── notebooks/
-│   └── eda.ipynb
-├── README.md
-└── requirements.txt (opcional)
-```
-
----
-
-## 4. Fuente del dataset  
+## 3. Fuente del dataset  
 Dataset original:  
 UCI Machine Learning Repository – Breast Cancer Wisconsin (Diagnostic)
 [Enlace de kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
 
 ---
 
-## 5. Reflexión personal
+## 4. Reflexión personal
 Al analizar este dataset, me ha llamado especialmente la atención cómo ciertas características de los tumores están claramente asociadas a que el diagnóstico sea maligno. Variables como el radio, el perímetro y el área muestran valores significativamente más altos en los casos malignos, y esto es especialmente evidente en las mediciones etiquetadas como worst, que representan las peores observaciones de cada tumor.
 
 Aunque se trata de datos puramente biomédicos, tienen una dimensión humana evidente. En mi caso, este análisis me tocaba de cerca porque mi abuela superó un cáncer de mama. Ver cómo los datos reflejan el comportamiento real de los tumores malignos me ha ayudado a entender mejor cómo los médicos valoran estas señales.
